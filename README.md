@@ -22,3 +22,5 @@ If you want to get rid of remainders of the process: `make clean` removes all co
   * run website: `docker run --name=nnev-website -p 127.0.0.1:8080:80 --link nnev-postgres:postgres -v $PWD:/usr/src/ nnev-website`
   * browse to [`127.0.0.1:8080`](http://127.0.0.1:8080) to inspect your state of the webpage
   * restart: `Ctrl-C` out and run `docker kill nnev-website; docker rm nnev-website`, then goto `run website`
+
+thankyou for use our services
